@@ -1,5 +1,12 @@
 package main
 
+import (
+	"fmt"
+
+	awesome "github.com/eiliz/learning-go-jon-bodner/ch1/gras"
+	"github.com/eiliz/learning-go-jon-bodner/ch1/hello"
+)
+
 func main() {
-	// gras.Format(2)
+	fmt.Println(hello.Format(2), awesome.Meow())
 }
